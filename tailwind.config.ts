@@ -27,6 +27,11 @@ const config: Config = {
       },
     },
   },
+  variants: {
+    extend: {
+      animation: ['group-hover'],
+    },
+  },
   plugins: [require('@tailwindcss/forms')],
 };
 export default config;
