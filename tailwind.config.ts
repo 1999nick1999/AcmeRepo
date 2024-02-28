@@ -29,7 +29,7 @@ const config: Config = {
   },
   variants: {
     extend: {
-      animation: ['group-hover'],
+      animation: ['hover', 'group-hover', 'focus', 'group-focus', 'responsive', 'bounce'],
     },
   },
   plugins: [require('@tailwindcss/forms')],
